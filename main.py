@@ -1,8 +1,9 @@
 from fastapi import FastAPI
+from cronjobs.CronJobs import CronJobs
 
-app = FastAPI()
+app = FastAPI(lifespan=CronJobs().lifespan)
 
 
 @app.get("/")
-def read_root():
+def home():
     return {"Hello": "World"}

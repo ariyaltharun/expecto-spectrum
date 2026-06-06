@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "name": "Sync Applications With DB",
+        "func": "syncApplicationsWithDB",
+        "trigger": "cron",
+        "hour": "0",
+        "minute": "0",
+        "second": "0"
+    }
+]
