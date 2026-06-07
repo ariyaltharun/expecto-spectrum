@@ -1,0 +1,7 @@
+<resume-template>
+
+Fill in the above LaTeX template with the following user input in markdown format:
+<user-info>
+
+with the job-description
+<job-description>
