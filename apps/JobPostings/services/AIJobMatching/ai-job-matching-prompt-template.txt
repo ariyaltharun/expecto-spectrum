@@ -1,0 +1,18 @@
+I am providing the user job preference and job details:
+Please check wether it is matching or not
+1. If matching, give reason why it is matching
+2. If not matching, give reason why it is not matching
+3. If there is no user-job-preference or job-details provided, please say that I dont have enough data to match and reason
+Output Format:
+{
+    "is_match": <True/False>,
+    "reason_for_match": "<reason for matching or not matching>"
+}
+Just give the data in python dict format, so that I can easily convert string to dict using eval,
+no other extra characters and not even ``` (three single quotes)
+
+Here is the user job preference:
+<user-job-preference>
+
+Here is the job details:
+<job-details>
